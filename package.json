@@ -1,0 +1,14 @@
+{
+  "name": "chronovid19",
+  "version": "1.0.0",
+  "description": "Détection de slots libres pour ton chronodrive local. Dédicace à tous les confinés",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Guillaume Seznec <guillaume@seznec.fr>",
+  "license": "GPL",
+  "dependencies": {
+    "puppeteer": "2.1.1"
+  }
+}
