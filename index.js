@@ -34,7 +34,7 @@ const exec = util.promisify(require('child_process').exec);
   if (hasSlots) {
     console.log(new Date(), ': YOUPI DES SLOTS :)');
     // très MacOS...
-    await exec('say YOUPI CHRONODRIVE A UN SLOT DE LIBRE');
+    await exec('say YA UN SLOTTE CHRONODRAILLVE LIBRE DEPECHE TOI DE VALIDER TON PANIER');
   } else {
     console.log(new Date(), ': RIEN de LIBRE :(');
   }
