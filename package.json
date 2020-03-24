@@ -4,11 +4,16 @@
   "description": "Détection de slots libres pour ton chronodrive local. Dédicace à tous les confinés",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "Guillaume Seznec <guillaume@seznec.fr>",
   "license": "GPL",
   "dependencies": {
-    "puppeteer": "2.1.1"
+    "moment": "^2.24.0",
+    "prompts": "^2.3.2",
+    "puppeteer": "2.1.1",
+    "say": "^0.16.0",
+    "sprintf-js": "^1.1.2"
   }
 }
